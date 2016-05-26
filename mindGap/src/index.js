@@ -18,6 +18,8 @@
  */
 var APP_ID = "amzn1.echo-sdk-ams.app.be0df69e-ec84-4025-a0cf-6c0af32444c4";
 
+// Skill icon from: http://www.freepik.com
+
 /* psychology facts from: 
 http://www.thepsychmind.com
 http://www.factslides.com/s-Psychology 
