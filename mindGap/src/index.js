@@ -16,7 +16,7 @@
 /**
  * App ID for the skill
  */
-var APP_ID = "amzn1.echo-sdk-ams.app.b6fb1f0b-a6ef-40c0-add5-e78b98e79c1a";
+var APP_ID = "amzn1.echo-sdk-ams.app.be0df69e-ec84-4025-a0cf-6c0af32444c4";
 
 /* psychology facts from: 
 http://www.thepsychmind.com
@@ -143,7 +143,7 @@ MindGap.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random space fact from the mind facts list
+    // Get a random psychology fact from the mind facts list
     var factIndex = Math.floor(Math.random() * MIND_GAP.length);
     var fact = MIND_GAP[factIndex];
 
